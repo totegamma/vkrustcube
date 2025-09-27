@@ -1,0 +1,13 @@
+[package]
+name = "vk-cube"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ash = { version = "0.38.0", features = ["linked"] }
+bytemuck = { version = "1.23.2", features = ["derive"] }
+drm = "0.14.1"
+glam = { version = "0.30.8", features = ["bytemuck"] }
+libc = "0.2.176"
+nix = "0.30.1"
+shaderc = "0.10.1"
